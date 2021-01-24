@@ -35,6 +35,7 @@
                             @endforeach
                         </select>
                     </div>
+
                      <div class="col-md-3 form-group">
                      <label for="domain" class="fz-14 leading-none text-secondary mb-1">Domain</label>
                         <select class="form-control" name="type" id="type" value="{{ old('type') }}">
@@ -43,6 +44,7 @@
                             <option value="Marketing" {{ old('type') == 'Marketing' ? 'selected' : '' }}>Marketing</option>
                         </select>
                 </div>
+                
                     <div class="col-md-3 form-group">
                         <label for="title" class="fz-14 leading-none text-secondary mb-1">Type</label>
                         <select class="form-control" name="type" id="type" value="{{ old('type') }}">
